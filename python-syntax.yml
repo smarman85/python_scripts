@@ -1,0 +1,232 @@
+# Print statements
+print "String" # will print "String"
+# print with format
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+
+meal = meal + meal * tax
+total = meal + meal * tip
+print("%.2f" % total)
+
+#variables:
+my_int = 7
+my_float = 1.23
+my_bool = True
+
+#function syntax:
+# notice the 4 space indent inside the function
+def spam():
+    eggs = 12
+    return eggs
+                  
+print spam()
+
+# comments
+ '#' single line comment
+ '"""' multi line
+       comment
+ '"""'
+
+# Math
+addition = 72 + 23
+subtraction = 108 - 204
+multiplication = 108 * 0.5
+division = 108 / 9
+eight = 2 ** 3
+modulus = 10 % 3 = 1
+
+# printing index
+fifth_letter = "MONTY"[4]
+print fifth_letter
+
+# Dot notation: 
+ex) "String".upper() # only work on strings
+ex) len("String")    # only can be used on other data types
+# find length of a sting
+parrot = "Norwegian Blue"
+print len(parrot)
+# print lowercase
+print parrot.lower()
+# print uppercase
+print parrot.upper()
+
+# Print numbers as string
+pi = 3.14
+print str(pi)
+
+#concat strings:
+print "Spam " + "and " + "eggs"
+
+# String formatting with '%' Part 1
+string_1 = "Camelot"
+string_2 = "place"
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2) # prints Let's not go to Camelot. 'Tis a silly place.
+
+# Raw string formatting
+name = raw_input("What is your name?")
+quest = raw_input("What is your quest?")
+color = raw_input("What is your favorite color?")
+print "Ah, so your name is %s, your quest is %s, and your favorite color is %s." % (name, quest, color)
+
+# pring a range:
+# start at 4
+# stop at 10
+# step by 2
+for i in range(4, 10, 2):
+    print(i)
+
+# Importing Libraies
+from datetime import datetime
+
+now = datetime.now()
+print now.year
+print now.month
+print now.day
+# or 
+print '%s-%s-%s' % (now.year, now.month, now.day) # to print 2014-02-19
+
+# Compair Closely
+'==' equal to
+'!=' does not equal 
+'<'  less than
+'<=' less than or equal to
+'>'  greater than
+'>=' greater than or equal to
+
+"""
+     Boolean Operators
+------------------------      True and True is True
+True and False is False
+False and True is False
+False and False is False
+
+True or True is True
+True or False is True
+False or True is True
+False or False is False
+
+Not True is False
+Not False is True
+
+"""
+
+# if/elif/else
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+
+# Function syntax
+def power(base, exponent):  # Add your parameters here!
+    result = base**exponent
+    print "%d to the power of %d is %d." % (base, exponent, result)
+
+power(37,4)
+
+
+# importing modules
+import math            # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything       # Prints 'em all!
+
+# min/max
+min(13,3213,23123,1) # prints minimum val
+max(13,3213,23123,1) # prints max val
+abs(-42) # prints absolute value
+
+# prints type of input:
+print type(12)
+print type(1.23)
+print type("hello")
+
+Lists:
+  zoo_animals = ["pangolin", "cassowary", "sloth", "me"]
+  print list index value:
+  print zoo_animals[0] # pangolin
+  reassign value at index:
+  zoo_animals[2] = "hyena" # changes list to ["pangolin", "cassowary", "hyena", "me"]
+  append to list:
+  zoo_animals.append("monkey") # -> ["pangolin", "cassowary", "hyena", "me", "monkey"]
+
+  list slicing:
+		suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+		
+		# The first and second items (index zero and one)
+		first = suitcase[0:2]
+		print first
+		# Third and fourth items (index two and three)
+		middle = suitcase[3:4]
+		print middle
+		# The last two items (index four and five)
+		last =  suitcase[-1]
+		print last
+
+		ex 2)
+		animals = "catdogfrog"
+		# The first three characters of animals
+		cat = animals[:3]
+		# The fourth through sixth characters
+		dog = animals[3:7]
+		# From the seventh character to the end
+		frog = animals[6:]
+
+		insert in order:
+			animals = ["aardvark", "badger", "duck", "emu", "fennec fox"]
+			duck_index = animals.index("duck")# Use index() to find "duck"
+			# Your code here!
+			animals.insert(duck_index, "cobra")
+			print animals # Observe what prints after the insert operation
+
+		# remove from list:
+		backpack.remove("dagger")
+
+Dictionaries:
+	# Assigning a dictionary with three key-value pairs to residents:
+	residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+	
+	print residents['Puffin'] # Prints Puffin's room number
+	
+	# Your code here!
+	print residents['Sloth']
+	print residents['Burmese Python']
+
+ # delete from dicton
+ del zoo_animals['Sloth']
+ # append to dict
+ menu["Chicken Alfredo"] = 12.40
+ # reassign
+ zoo_animals['Rockhopper Penguin'] = "Tennis court"
+
+loops:
+	for loop:
+		my_list = [1,9,3,8,5,7]
+		for number in my_list:
+			print number * 2
+
+  counter = 0
+  while count < 5:
+    print "Hello, I am a while and count is", count
+    count +=1
+
+  while with a break:
+    count = 0
+
+  while True:
+    print count
+    count += 1
+    if count >= 10:
+      break
+
+# File syntax
+      "w" == write-only mode
+      "r" == read-only mode
+      "r+" == read and write
+      "a" == append mode. Adds new data you write to the file to the end of the line
