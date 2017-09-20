@@ -14,5 +14,7 @@ class PartTimeEmployee(Employee):
 
 full = Employee("Carl")
 print full.calculate_wage(40)
-part = Employee("Lenny")
+full2 = Employee("Lenny")
 print full.calculate_wage(32)
+part = PartTimeEmployee("Sean")
+print part.calculate_wage(21)
