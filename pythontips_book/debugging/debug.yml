@@ -1,0 +1,5 @@
+# once mastered debugging can enhance bug hunting skills:
+# python debugger 'pdb'
+# you can run from the command line using:
+# $ python -m pdb my_script.py
+#
