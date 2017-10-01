@@ -1,0 +1,11 @@
+5. set data structure:
+  - behave like lists with one distinction, they can not contain duplicate values
+  - use: check whether there are duplicates in a list or not
+
+intersection:
+  - you can intersect two sets 
+
+difference:
+  - find invalid values in the interection.py using the differenct method
+
+

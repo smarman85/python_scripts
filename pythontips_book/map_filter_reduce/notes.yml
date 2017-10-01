@@ -1,0 +1,40 @@
+# Map, Filter, Reduce
+    - facilitate a functional approach to programming
+
+4.1 Map
+    - applies a function to all items in an input_list
+    ex) map(function_to_apply, list_of_inputs)
+    - most the time lambda is used with map
+
+    - !! lambda
+        - small anonymous functions can be created with lambda keyword.
+        - this function returns the sum of its two arguments:
+            lambda a, b: a+b
+        - can be used wherever function objects are required. 
+        - syntactically restricted to single expression. 
+        - like nested function definitions, lambda functions 
+            can reference variables from the containing scope
+		>>> def make_incrementor(n):
+		...     return lambda x: x + n
+		...
+		>>> f = make_incrementor(42)
+		>>> f(0)
+		42
+		>>> f(1)
+		43
+
+4.2 Filter:
+  - creates a list of elements for which a function returns true
+  - filter resembles a for loop but it is a builtin function and faster
+
+
+4.3 Reduce:
+  - useful for performing some computation on a list and returning the result
+  - applies a rolling computation to sequential pairs of values in a list
+  - ex) compute the product of a list of integers
+
+
+
+
+
+    - http://book.pythontips.com/en/latest/map_filter.html

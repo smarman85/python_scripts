@@ -1,0 +1,8 @@
+3.4  Generators:
+  - are iterators, but can only iterate over them once.
+    because they do not store all the values in memory
+    genrate values on the fly. Used in for loops or pass
+    them to a function that iterates
+  - best for calculatiing large sets of results where you do 
+    not want to allocate the memory for all results at the
+    same time
