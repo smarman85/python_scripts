@@ -1,0 +1,12 @@
+# Slots:
+  Good:
+    - by default python uses a dict to store an objects instance attributes
+    - helpful as it allows setting arbitrary new attributes at runtime
+  Bad:
+    - However for small classes with known attributes it might be a bottlenetck
+    - dict wastes a lot of RAM
+    - python can't allocate a static amount of memory at object creation to store
+      all the attributes. Sucks a lot of RAM if you create a lot of objects 
+      (like thousands and millions)
+    - __slots__ allow you to circumvent this issue
+      - slots tell python to not use a dict, and only allocate space for a fixed set of attributes
