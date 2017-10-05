@@ -10,3 +10,12 @@
       (like thousands and millions)
     - __slots__ allow you to circumvent this issue
       - slots tell python to not use a dict, and only allocate space for a fixed set of attributes
+
+The two scripts without/with_slots:
+  - the one with slots will see a 40 to 50% reduction in RAM usage
+
+Sidenote:
+  - give PyPy a try
+  - does optimizations by default
+
+https://github.com/ianozsvald/ipython_memory_usage  :-> show exact memory usage
