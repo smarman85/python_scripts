@@ -1,0 +1,30 @@
+# Virtualenv
+  - tool which allows us to make isilated python environments
+  - senerio:
+    - application needs version 2 of a library and another needs version 3 
+  - if you install everything into /usr/lib/python2.7/site-packages
+    - it's easy to find yourself in a situation where you unintentioanlly upgraded a package
+  - Install:
+    $ pip install virtualenv
+    # commands:
+    $ virtualenv myproject
+    $ source bin/active
+    - first one makes an isolated virtualenv in the myproject folder
+    - second one activates that isolated environment
+  - while createing the virtualenv you have to make a decision
+      - do you want this virtualenv to use pagackets from your system 'site-packages'
+      - or install them in the virtualenvs site-packages
+
+  - if you want your virtualenv to have access to your systems 'site-packages' use
+    th '--system-site-packages' switch when creating your virtualenv like this:
+      $ virtualenv --system-site-packages mycoolproject
+
+  - you can turn off the 'env' by typing;
+    $ deactivate
+
+    Running python after deactivating will use your system installation of python again
+
+Bonus:
+  - you can use 'smartcd' which is a library for bash and zsh adn allows you to alter bash (or zsh) environment
+    as you cd
+  - helpful to activate and deactivate 'virtualenv' when you change dirs. 
