@@ -1,0 +1,75 @@
+# Collections:
+  - python ships with a module that contains a number of 
+    container data types called 'Collections'
+  - we will look at:
+    - defaultdict
+    - OrderDict
+    - counter
+    - deque
+    - namedtuple
+    - enum.Enum (outside of the module: Python 3.4+)
+
+12.1 defaultdict:
+  - unlike dict, defaultdict you don't need to check whether a key is present
+    so we can do defaultdict.py
+  - use case for when you are appending to a nested list inside a dictionary
+  - if a key is not already present in the dictionary you get a 'KeyError'
+  - 'defaultdict' allows us to circumvent the issue in a clever way
+  - you can print 'some_dict' using 'json.dumps' 
+
+12.2 OrderDict:
+  - keeps it's entries sorted as they are initially inserted
+  - overwritting a value of an existing key doesn't change the position 
+    of that key
+  - However, deleting and reinserting an entry moves the key to the end
+
+12.3 counter:
+  - counter allows us to count the occurrences of a particular item
+  - can be used to count the number of individual favorite colors
+
+12.4 deque:
+  - provides you a double ended queue which means that you can append and delete
+    elements from either sid of the queue
+  - first of all you have to import the deque module from the collections library
+
+12.5 namedtuple:
+  - a tuple is basically a immutable list which allows you to store a sequence of values seperated by commas
+  - they are like lists but have a few key difference
+      - Major one: unlike lists 'you can not reassign an item in a tuple'
+      - in order to access the value in a tuple you use integer indexes like
+  - they turn tuples into convenient containers for simple tasks
+  - with namedtuples you don't have to use integer indexes for accessing members of a tuple
+  - a named tuple has two required arguments
+      1) tuple name
+      2) tuple field_names
+  - in 'namedtuple-access2.py' 
+    our tuple name is 'Animal'
+    our tuple field_names were 'name', 'age', and 'type'
+  - Namedtuple makes your tuples 'self-document'
+      ie) you can easily understand what is going on by having a quick glance at your code
+  - as you are not bound to using integer indexes to access members of a tuple, it makes it more 
+      easy to maintain
+  - moreover a 'namedtuple' instances do not have per-instance dictionaries, they are lightweight and require no more
+      memeory than regular tuples. "FASTER THAN DICTIONARIES"
+      however as with tuples 'attributes in namedtuples are immutatble' which means 'namedtuple-immutable.py' wont
+      work
+  - you should use tuples to make your code self-documenting. 'They are backwards compatible with normal tuples'
+    ie) you can use integer indexes with namedtuples as well ex) 'namedtuple-back-compat.py'
+  - you can convert a 'namedtuple' to a dict like 'namedtuple-to-dict.py'
+
+12.6 enum.Enum (Python 3.4+):
+  - available in the 'enum' module in python 3.4 and up
+  - consider Animal namedtuple from last ex. 
+      - it had a 'type' filed. Problem is type was a string. Adds variable output ie: "cat", "CAT", "Cat", "Kitten"
+  - emumerations can help us avoid this problem, by not using strings. Consider 'enum.py'
+
+
+
+
+
+
+
+
+
+
+

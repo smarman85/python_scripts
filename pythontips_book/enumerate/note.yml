@@ -1,0 +1,7 @@
+Enumerate:
+  - built-in-function of python
+  - allows us to loop over something and have an automatic counter
+    ex) 'enumerate.py'
+  - more 'enumerate' also accepts an optional argument which makes it even more useful
+    ex) 'enumerate-with-args.py' # the optional args allows you to tell enumerate from where the index starts
+  - you can also create tuples containing the index and list item using a list ex) 'enumerate-list.py'
