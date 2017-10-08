@@ -1,0 +1,8 @@
+# Exceptions:
+  - great thing to master
+  - aware of the 'try/except' clause
+  - the code which can cause an exception to occure is put in the 'try' block and the
+    handling of the exception is implemented in the 'except' block
+    ex) 'try-except.py'
+    - in the try-except we are handling only the IOError exception. 'We can hadle multiple exceptions'
+

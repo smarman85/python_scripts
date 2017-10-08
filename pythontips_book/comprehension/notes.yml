@@ -1,0 +1,28 @@
+# Comprehension
+  - constructs that allow sequences to be built from other squences
+  - three types of comprehensions are supported in python 2 and 3
+    * list comprehension
+    * dictionary comprehensions
+    * set comprehensions
+
+15.1 'list' comprehensions
+  - provide a short way to make lists
+  - it consists of square brackets containing a expression followed by a 'for' clause, then zero or more
+    'for' or 'if' cases
+  - result would be a new list made after the evaluation of the expression in context of the 'if' and 'for' clause  
+    Blueprint:
+      variable = [out_exp for out_exp in input_list if out_exp == 2]
+  - useful to make lists quickly
+  - preferred by some instead of the 'filter' function
+  - really shine when you want to supply a list to a method of function to make a new lsit by appending to
+    it in each iteration of a for loop. ex) 'for-loop-list_comprehensions.py'
+
+15.2 'dict' comprehensions
+  - used similarly to lists comprehensions
+  - ex) 'dict_comprehensions.py'
+  - ???
+
+15.3 'set' comprehensions
+  - similar to list comprehensions. 
+  - only diff is that they use braces '{}'
+  - ex) 'set-comprehensions.py'
