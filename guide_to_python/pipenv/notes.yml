@@ -1,0 +1,38 @@
+Installing pipenv:
+  - $ pip install --user pipenv
+  - installing packages for your project
+      - pipenv install requests # could fail if, it does add it to your PATH var ex) python -m site --user-base  ===  /Users/smarman/Library/Python/2.7/bin
+      - run with 'pipenv run python main.py'
+      - pipenv run  # insures that your installed packages are available to your script
+      - it can also spawn a new shell to ensure all commnads have access to your installed packages with '$ pipenv shell'
+
+virtualenv:
+  - tool to isolate Python envirnonments.
+  - creates a folder which contains all the executables to use the packages python would need
+  - can be used in place of pipenv
+  - install:
+    $ pip install virtualenv
+    $ virtualenv --version
+    #run
+    $ virtualenv my_project # sets up a env named my_project
+      - will create a folder with python executables and copy pip library
+      - can also use the interpreter of your choice like python2.7
+        ex) '$ virtualenv -p /usr/bin/python2.7 my_project'
+        globally set virtualenv var
+        ex) in ~/.bashrc # $ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7
+        to begin using a virtual environment
+        $ source my_project/bin/activate
+          # use as normal
+            - pip install requests
+            - when done '$ deactivate'
+              rm -rf my_project
+    * Tip: keep package list clean:
+     - '$ virtualenv --no-site-packages' will not include globally installed packages # default behavior in virtualenv 1.7
+    - freeze
+       keep current state of packages
+        - '$ pip freeze > requirements.txt'
+
+virtualenvwrapper:
+  - provides a set of commands which makes working with virtual envs more pleasant
+  - places all virtual env in one place
+      
