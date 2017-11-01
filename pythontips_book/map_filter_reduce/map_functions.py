@@ -6,7 +6,7 @@ def add(x):
 funcs = [multiply, add]
 for i in range(5):
     value = list(map(lambda x: x(i), funcs))
-    print value
+    print (value)
 
 # Output:
 # [0, 0]
