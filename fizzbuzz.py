@@ -6,6 +6,7 @@ for num in range(1,101):
         string = string + "Buzz"
     if num % 5 == 0:
         string = string + "Bazz"
-    print string
-    string = ""
+    if string != "":
+      print string
+      string = ""
     
