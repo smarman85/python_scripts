@@ -7,7 +7,11 @@ def showAllView(list):
 
 def startView():
     print ("MVC - the simplest example")
-    print ("Do you want to see everyone in my db?[y/n]")
+    print ("""\
+What would you like to do:
+1. Add a user to the db [a]
+2. Show users in the db [s]
+3 exit [e] """)
 
 def endView():
     print ('Goodbye!')

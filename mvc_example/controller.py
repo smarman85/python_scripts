@@ -7,11 +7,17 @@ def showAll():
     # calls view
     return view.showAllView(people_in_db)
 
+def addUser():
+    print ("More to come later")
+    #add_pserson = Person.addUser()
+
 def start():
     view.startView()
     user_input = input()
-    if user_input == 'y':
+    if user_input == 's':
         return showAll()
+    elif user_input == 'a':
+        return addUser()
     else:
         return view.endView()
 

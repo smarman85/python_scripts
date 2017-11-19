@@ -16,3 +16,6 @@ class Person(object):
         for item in database:
             result.append(item)
         return result
+
+    def addUser(self):
+        pass
