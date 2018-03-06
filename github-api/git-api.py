@@ -8,6 +8,9 @@ base_url = "https://api.github.com"
 def api_call(url):
     print url
     resp = requests.get(url)
+    print "***************************"
+    print resp
+    print "***************************"
     data = resp.json()
     return data
     #return data[field]
