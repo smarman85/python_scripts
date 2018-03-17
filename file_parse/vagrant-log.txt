@@ -1,0 +1,1001 @@
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1472] device (enp0s3): Activation: starting connection 'enp0s3' (85d1c3de-3150-4380-91af-f1470a9d7eec)
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1476] device (enp0s8): link connected
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1484] manager: (enp0s8): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 12 17:07:46 localhost nm-dispatcher: req:2 'hostname': new request (2 scripts)
+Mar 12 17:07:46 localhost nm-dispatcher: req:2 'hostname': start running ordered scripts...
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1564] device (enp0s8): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1602] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1611] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1614] device (enp0s8): state change: unavailable -> disconnected (reason 'none') [20 30 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1631] policy: auto-activating connection 'System enp0s8'
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1638] device (enp0s8): Activation: starting connection 'System enp0s8' (00cb8299-feb9-55b6-a378-3fdc720e0bc6)
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1640] device (enp0s8): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1641] manager: NetworkManager state is now CONNECTING
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1643] device (enp0s8): state change: prepare -> config (reason 'none') [40 50 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1794] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.1801] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2118] dhcp4 (enp0s3): dhclient started with pid 2946
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2202] device (enp0s8): state change: config -> ip-config (reason 'none') [50 70 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2460] device (enp0s8): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2469] device (enp0s8): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2470] device (enp0s8): state change: secondaries -> activated (reason 'none') [90 100 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2471] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2550] policy: set 'enp0s3' (enp0s3) as default for IPv4 routing and DNS
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2577] device (enp0s8): Activation: successful, device activated.
+Mar 12 17:07:46 localhost nm-dispatcher: req:3 'up' [enp0s8]: new request (2 scripts)
+Mar 12 17:07:46 localhost nm-dispatcher: req:3 'up' [enp0s8]: start running ordered scripts...
+Mar 12 17:07:46 localhost dhclient[2946]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x581b64f8)
+Mar 12 17:07:46 localhost dhclient[2946]: DHCPACK from 10.0.2.2 (xid=0x581b64f8)
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2777] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2778] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2779] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2779] dhcp4 (enp0s3):   lease time 86400
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2779] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2779] dhcp4 (enp0s3):   domain name 'emv.marqeta.com'
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2779] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2830] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2835] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2836] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2837] manager: NetworkManager state is now CONNECTED_SITE
+Mar 12 17:07:46 localhost dhclient[2946]: bound to 10.0.2.15 -- renewal in 34442 seconds.
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2923] device (enp0s3): Activation: successful, device activated.
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2928] manager: startup complete
+Mar 12 17:07:46 localhost NetworkManager[2932]: <info>  [1520899666.2930] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 12 17:07:46 localhost nm-dispatcher: req:4 'up' [enp0s3]: new request (2 scripts)
+Mar 12 17:07:46 localhost nm-dispatcher: req:5 'connectivity-change': new request (2 scripts)
+Mar 12 17:07:46 localhost nm-dispatcher: req:4 'up' [enp0s3]: start running ordered scripts...
+Mar 12 17:07:46 localhost nm-dispatcher: req:5 'connectivity-change': start running ordered scripts...
+Mar 12 17:07:47 localhost systemd-hostnamed: Changed pretty host name to 'Centos7LRG'
+Mar 12 17:07:47 localhost systemd-hostnamed: Changed static host name to 'centos7lrg'
+Mar 12 17:07:47 localhost NetworkManager[2932]: <info>  [1520899667.7695] settings: hostname changed from "localhost.localdomain" to "centos7lrg"
+Mar 12 17:07:47 localhost NetworkManager[2932]: <info>  [1520899667.7697] policy: set-hostname: set hostname to 'centos7lrg' (from system configuration)
+Mar 12 17:07:47 localhost nm-dispatcher: req:6 'hostname': new request (2 scripts)
+Mar 12 17:07:47 localhost nm-dispatcher: req:6 'hostname': start running ordered scripts...
+Mar 12 17:07:47 localhost systemd-hostnamed: Changed host name to 'centos7lrg'
+Mar 12 17:07:47 localhost nm-dispatcher: req:7 'hostname': new request (2 scripts)
+Mar 12 17:07:47 localhost nm-dispatcher: req:7 'hostname': start running ordered scripts...
+Mar 12 17:07:55 localhost yum[3430]: Installed: 1:perl-Error-0.17020-2.el7.noarch
+Mar 12 17:07:55 localhost yum[3430]: Installed: python-chardet-2.2.1-1.el7_1.noarch
+Mar 12 17:07:55 localhost yum[3430]: Installed: python-kitchen-1.1.1-5.el7.noarch
+Mar 12 17:07:56 localhost yum[3430]: Installed: libxml2-python-2.9.1-6.el7_2.3.x86_64
+Mar 12 17:07:56 localhost yum[3430]: Installed: perl-TermReadKey-2.30-20.el7.x86_64
+Mar 12 17:07:56 localhost yum[3430]: Installed: libgnome-keyring-3.12.0-1.el7.x86_64
+Mar 12 17:07:56 localhost systemd: Reloading.
+Mar 12 17:07:56 localhost yum[3430]: Installed: rsync-3.0.9-18.el7.x86_64
+Mar 12 17:07:56 localhost yum[3430]: Installed: perl-Git-1.8.3.1-12.el7_4.noarch
+Mar 12 17:07:57 localhost yum[3430]: Installed: git-1.8.3.1-12.el7_4.x86_64
+Mar 12 17:07:57 localhost yum[3430]: Installed: yum-utils-1.1.31-42.el7.noarch
+Mar 12 17:07:57 localhost yum[3430]: Updated: device-mapper-persistent-data-0.7.0-0.1.rc6.el7_4.1.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: libcgroup-0.41-13.el7.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: setools-libs-3.3.8-1.1.el7.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: pigz-2.3.3-1.el7.centos.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: checkpolicy-2.5-4.el7.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: libtool-ltdl-2.4.2-22.el7_3.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: libseccomp-2.3.1-3.el7.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: audit-libs-python-2.7.6-3.el7.x86_64
+Mar 12 17:08:03 localhost yum[3509]: Installed: python-IPy-0.75-6.el7.noarch
+Mar 12 17:08:03 localhost yum[3509]: Installed: libsemanage-python-2.5-8.el7.x86_64
+Mar 12 17:08:03 localhost dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:03 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:03 localhost yum[3509]: Installed: policycoreutils-python-2.5-17.1.el7.x86_64
+Mar 12 17:08:04 localhost dbus[622]: avc:  received policyload notice (seqno=2)
+Mar 12 17:08:04 localhost dbus-daemon: dbus[622]: avc:  received policyload notice (seqno=2)
+Mar 12 17:08:04 localhost dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:04 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:04 localhost setsebool: The virt_use_nfs policy boolean was changed to 1 by root
+Mar 12 17:08:04 localhost setsebool: The virt_sandbox_use_all_caps policy boolean was changed to 1 by root
+Mar 12 17:08:25 localhost dbus[622]: avc:  received policyload notice (seqno=3)
+Mar 12 17:08:25 localhost dbus-daemon: dbus[622]: avc:  received policyload notice (seqno=3)
+Mar 12 17:08:25 localhost dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:25 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 12 17:08:25 localhost yum[3509]: Installed: 2:container-selinux-2.42-1.gitad8f0f7.el7.noarch
+Mar 12 17:08:30 localhost systemd: Reloading.
+Mar 12 17:08:30 localhost yum[3509]: Installed: docker-ce-18.03.0.ce-0.3.rc3.el7.centos.x86_64
+Mar 12 17:08:30 localhost systemd: Starting Docker Application Container Engine...
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30.662962962-07:00" level=info msg="libcontainerd: started new docker-containerd process" pid=3590
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="starting containerd" module=containerd revision=cfd04396dc68220d1cecbe686a6cc3aa5ce3667c version=v1.0.2
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.content.v1.content"..." module=containerd type=io.containerd.content.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.btrfs"..." module=containerd type=io.containerd.snapshotter.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter" module=containerd
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.snapshotter.v1.overlayfs"..." module=containerd type=io.containerd.snapshotter.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.metadata.v1.bolt"..." module=containerd type=io.containerd.metadata.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter" module="containerd/io.containerd.metadata.v1.bolt"
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.differ.v1.walking"..." module=containerd type=io.containerd.differ.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.gc.v1.scheduler"..." module=containerd type=io.containerd.gc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.containers"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.content"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.diff"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.events"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.healthcheck"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.images"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.leases"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.namespaces"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.snapshots"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.monitor.v1.cgroups"..." module=containerd type=io.containerd.monitor.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.runtime.v1.linux"..." module=containerd type=io.containerd.runtime.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.tasks"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.version"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="loading plugin "io.containerd.grpc.v1.introspection"..." module=containerd type=io.containerd.grpc.v1
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg=serving... address="/var/run/docker/containerd/docker-containerd-debug.sock" module="containerd/debug"
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg=serving... address="/var/run/docker/containerd/docker-containerd.sock" module="containerd/grpc"
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30-07:00" level=info msg="containerd successfully booted in 0.012734s" module=containerd
+Mar 12 17:08:30 localhost kernel: TECH PREVIEW: Overlay filesystem may not be fully supported.#012Please review provided documentation for limitations.
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30.736963556-07:00" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30.739277302-07:00" level=info msg="Loading containers: start."
+Mar 12 17:08:30 localhost kernel: Bridge firewalling registered
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT -m addrtype --dst-type LOCAL ! --dst 127.0.0.0/8 -j DOCKER' failed: iptables v1.4.21: Couldn't load target `DOCKER':No such file or directory#012#012Try `iptables -h' or 'iptables --help' for more information.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables v1.4.21: Couldn't load target `DOCKER':No such file or directory#012#012Try `iptables -h' or 'iptables --help' for more information.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D PREROUTING' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -D OUTPUT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -F DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -X DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -F DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -X DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -F DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -X DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -n -L DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -n -L DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -n -L DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C DOCKER-ISOLATION -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -n -L DOCKER-USER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C DOCKER-USER -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -j DOCKER-USER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost kernel: ctnetlink v0.93: registering with nfnetlink.
+Mar 12 17:08:30 localhost dockerd: time="2018-03-12T17:08:30.960805555-07:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Mar 12 17:08:30 localhost NetworkManager[2932]: <info>  [1520899710.9692] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C POSTROUTING -s 172.17.0.0/16 ! -o docker0 -j MASQUERADE' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:30 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C DOCKER -i docker0 -j RETURN' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -D FORWARD -i docker0 -o docker0 -j DROP' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -i docker0 ! -o docker0 -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C PREROUTING -m addrtype --dst-type LOCAL -j DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t nat -C OUTPUT -m addrtype --dst-type LOCAL -j DOCKER ! --dst 127.0.0.0/8' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -j DOCKER' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -o docker0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT' failed: iptables: Bad rule (does a matching rule exist in that chain?).
+Mar 12 17:08:31 localhost firewalld[651]: WARNING: COMMAND_FAILED: '/usr/sbin/iptables -w2 -t filter -C FORWARD -j DOCKER-ISOLATION' failed: iptables: No chain/target/match by that name.
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0833] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed') [10 20 41]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0850] ifcfg-rh: add connection in-memory (488111df-62b3-4757-89a2-ee0da6d5dc34,"docker0")
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0856] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed') [20 30 41]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0861] device (docker0): Activation: starting connection 'docker0' (488111df-62b3-4757-89a2-ee0da6d5dc34)
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0864] device (docker0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0866] device (docker0): state change: prepare -> config (reason 'none') [40 50 0]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0867] device (docker0): state change: config -> ip-config (reason 'none') [50 70 0]
+Mar 12 17:08:31 localhost kernel: IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.0975] device (docker0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.1008] device (docker0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.1071] device (docker0): state change: secondaries -> activated (reason 'none') [90 100 0]
+Mar 12 17:08:31 localhost NetworkManager[2932]: <info>  [1520899711.1140] device (docker0): Activation: successful, device activated.
+Mar 12 17:08:31 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 12 17:08:31 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 12 17:08:31 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 12 17:08:31 localhost dockerd: time="2018-03-12T17:08:31.146743524-07:00" level=info msg="Loading containers: done."
+Mar 12 17:08:31 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 12 17:08:31 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 12 17:08:31 localhost nm-dispatcher: req:1 'up' [docker0]: new request (2 scripts)
+Mar 12 17:08:31 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 12 17:08:31 localhost nm-dispatcher: req:1 'up' [docker0]: start running ordered scripts...
+Mar 12 17:08:31 localhost dockerd: time="2018-03-12T17:08:31.166857308-07:00" level=info msg="Docker daemon" commit=e730959 graphdriver(s)=overlay2 version=18.03.0-ce-rc3
+Mar 12 17:08:31 localhost dockerd: time="2018-03-12T17:08:31.167242944-07:00" level=info msg="Daemon has completed initialization"
+Mar 12 17:08:31 localhost dockerd: time="2018-03-12T17:08:31.204189942-07:00" level=info msg="API listen on /var/run/docker.sock"
+Mar 12 17:08:31 localhost systemd: Started Docker Application Container Engine.
+Mar 12 17:08:33 localhost systemd-logind: Removed session 2.
+Mar 12 17:08:33 localhost systemd: Removed slice User Slice of vagrant.
+Mar 12 17:08:33 localhost systemd: Stopping User Slice of vagrant.
+Mar 12 17:08:56 localhost systemd: Created slice User Slice of vagrant.
+Mar 12 17:08:56 localhost systemd: Starting User Slice of vagrant.
+Mar 12 17:08:56 localhost systemd: Started Session 3 of user vagrant.
+Mar 12 17:08:56 localhost systemd-logind: New session 3 of user vagrant.
+Mar 12 17:08:56 localhost systemd: Starting Session 3 of user vagrant.
+Mar 12 17:19:29 localhost systemd-logind: Removed session 3.
+Mar 12 17:19:29 localhost systemd: Removed slice User Slice of vagrant.
+Mar 12 17:19:29 localhost systemd: Stopping User Slice of vagrant.
+Mar 12 17:22:40 localhost systemd: Starting Cleanup of Temporary Directories...
+Mar 12 17:22:40 localhost systemd: Started Cleanup of Temporary Directories.
+Mar 12 17:55:01 localhost kernel: e1000: enp0s3 NIC Link is Down
+Mar 12 17:55:03 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.4964] device (enp0s3): link connected
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.4971] device (enp0s3): DHCPv4 lease renewal requested
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5015] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 2946
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5016] dhcp4 (enp0s3): state changed bound -> done
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5020] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5136] dhcp4 (enp0s3): dhclient started with pid 3753
+Mar 12 17:55:03 localhost dhclient[3753]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x1fdd9689)
+Mar 12 17:55:03 localhost dhclient[3753]: DHCPACK from 10.0.2.2 (xid=0x1fdd9689)
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3):   lease time 86400
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 12 17:55:03 localhost NetworkManager[2932]: <info>  [1520902503.5396] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 12 17:55:03 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 12 17:55:03 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 12 17:55:03 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 12 17:55:03 localhost dhclient[3753]: bound to 10.0.2.15 -- renewal in 39174 seconds.
+Mar 12 17:55:03 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 12 17:55:03 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 12 17:55:03 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 12 17:55:03 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 12 17:55:03 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 12 21:26:54 localhost systemd: Time has been changed
+Mar 12 22:01:01 localhost systemd: Created slice User Slice of root.
+Mar 12 22:01:01 localhost systemd: Starting User Slice of root.
+Mar 12 22:01:01 localhost systemd: Started Session 4 of user root.
+Mar 12 22:01:01 localhost systemd: Starting Session 4 of user root.
+Mar 12 23:01:01 localhost systemd: Started Session 5 of user root.
+Mar 12 23:01:01 localhost systemd: Starting Session 5 of user root.
+Mar 12 23:05:01 localhost systemd: Removed slice User Slice of root.
+Mar 12 23:05:01 localhost systemd: Stopping User Slice of root.
+Mar 13 08:48:21 localhost systemd: Time has been changed
+Mar 13 09:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 09:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 09:01:01 localhost systemd: Started Session 6 of user root.
+Mar 13 09:01:01 localhost systemd: Starting Session 6 of user root.
+Mar 13 09:18:02 localhost systemd: Removed slice User Slice of root.
+Mar 13 09:18:02 localhost systemd: Stopping User Slice of root.
+Mar 13 09:44:00 localhost systemd: Time has been changed
+Mar 13 10:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 10:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 10:01:01 localhost systemd: Started Session 7 of user root.
+Mar 13 10:01:01 localhost systemd: Starting Session 7 of user root.
+Mar 13 10:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 10:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 11:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 11:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 11:01:01 localhost systemd: Started Session 8 of user root.
+Mar 13 11:01:01 localhost systemd: Starting Session 8 of user root.
+Mar 13 11:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 11:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 12:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 12:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 12:01:01 localhost systemd: Started Session 9 of user root.
+Mar 13 12:01:01 localhost systemd: Starting Session 9 of user root.
+Mar 13 12:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 12:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 13:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 13:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 13:01:01 localhost systemd: Started Session 10 of user root.
+Mar 13 13:01:01 localhost systemd: Starting Session 10 of user root.
+Mar 13 13:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 13:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 14:20:30 localhost systemd: Time has been changed
+Mar 13 15:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 15:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 15:01:01 localhost systemd: Started Session 11 of user root.
+Mar 13 15:01:01 localhost systemd: Starting Session 11 of user root.
+Mar 13 15:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 15:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 16:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 16:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 16:01:01 localhost systemd: Started Session 12 of user root.
+Mar 13 16:01:01 localhost systemd: Starting Session 12 of user root.
+Mar 13 16:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 16:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 17:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 17:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 17:01:01 localhost systemd: Started Session 13 of user root.
+Mar 13 17:01:01 localhost systemd: Starting Session 13 of user root.
+Mar 13 17:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 17:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 17:04:48 localhost kernel: e1000: enp0s3 NIC Link is Down
+Mar 13 17:04:52 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4451] device (enp0s3): link connected
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4461] device (enp0s3): DHCPv4 lease renewal requested
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4521] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 3753
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4521] dhcp4 (enp0s3): state changed bound -> done
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4527] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.4653] dhcp4 (enp0s3): dhclient started with pid 14690
+Mar 13 17:04:52 localhost dhclient[14690]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x4321ec30)
+Mar 13 17:04:52 localhost dhclient[14690]: DHCPACK from 10.0.2.2 (xid=0x4321ec30)
+Mar 13 17:04:52 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5154] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5156] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5156] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5156] dhcp4 (enp0s3):   lease time 86400
+Mar 13 17:04:52 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5156] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 13 17:04:52 localhost NetworkManager[2932]: <info>  [1520985892.5157] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 13 17:04:52 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 13 17:04:52 localhost dhclient[14690]: bound to 10.0.2.15 -- renewal in 36589 seconds.
+Mar 13 17:04:52 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 13 17:04:52 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 13 17:04:52 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 13 17:04:52 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 13 17:04:52 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 13 17:54:58 localhost kernel: e1000: enp0s3 NIC Link is Down
+Mar 13 17:55:00 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3072] device (enp0s3): link connected
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3073] device (enp0s3): DHCPv4 lease renewal requested
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3109] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 14690
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3109] dhcp4 (enp0s3): state changed bound -> done
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3113] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3155] dhcp4 (enp0s3): dhclient started with pid 14716
+Mar 13 17:55:00 localhost dhclient[14716]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0xba49aeb)
+Mar 13 17:55:00 localhost dhclient[14716]: DHCPACK from 10.0.2.2 (xid=0xba49aeb)
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3):   lease time 86400
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 13 17:55:00 localhost NetworkManager[2932]: <info>  [1520988900.3380] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 13 17:55:00 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 13 17:55:00 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 13 17:55:00 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 13 17:55:00 localhost dhclient[14716]: bound to 10.0.2.15 -- renewal in 38956 seconds.
+Mar 13 17:55:00 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 13 17:55:00 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 13 17:55:00 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 13 17:55:00 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 13 17:55:00 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 13 21:00:16 localhost systemd: Time has been changed
+Mar 13 21:01:16 localhost systemd: Created slice User Slice of root.
+Mar 13 21:01:16 localhost systemd: Starting User Slice of root.
+Mar 13 21:01:16 localhost systemd: Started Session 14 of user root.
+Mar 13 21:01:16 localhost systemd: Starting Session 14 of user root.
+Mar 13 21:01:16 localhost systemd: Removed slice User Slice of root.
+Mar 13 21:01:16 localhost systemd: Stopping User Slice of root.
+Mar 13 22:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 22:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 22:01:01 localhost systemd: Started Session 15 of user root.
+Mar 13 22:01:01 localhost systemd: Starting Session 15 of user root.
+Mar 13 22:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 22:01:01 localhost systemd: Stopping User Slice of root.
+Mar 13 23:01:01 localhost systemd: Created slice User Slice of root.
+Mar 13 23:01:01 localhost systemd: Starting User Slice of root.
+Mar 13 23:01:01 localhost systemd: Started Session 16 of user root.
+Mar 13 23:01:01 localhost systemd: Starting Session 16 of user root.
+Mar 13 23:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 13 23:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 09:37:21 localhost systemd: Time has been changed
+Mar 14 10:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 10:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 10:01:01 localhost systemd: Started Session 17 of user root.
+Mar 14 10:01:01 localhost systemd: Starting Session 17 of user root.
+Mar 14 10:48:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 10:48:01 localhost systemd: Stopping User Slice of root.
+Mar 14 11:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 11:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 11:01:01 localhost systemd: Started Session 18 of user root.
+Mar 14 11:01:01 localhost systemd: Starting Session 18 of user root.
+Mar 14 11:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 11:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 12:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 12:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 12:01:01 localhost systemd: Started Session 19 of user root.
+Mar 14 12:01:01 localhost systemd: Starting Session 19 of user root.
+Mar 14 12:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 12:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 12:58:35 localhost systemd: Time has been changed
+Mar 14 13:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 13:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 13:01:01 localhost systemd: Started Session 20 of user root.
+Mar 14 13:01:01 localhost systemd: Starting Session 20 of user root.
+Mar 14 13:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 13:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 13:34:11 localhost systemd: Created slice User Slice of vagrant.
+Mar 14 13:34:11 localhost systemd: Starting User Slice of vagrant.
+Mar 14 13:34:11 localhost systemd: Started Session 21 of user vagrant.
+Mar 14 13:34:11 localhost systemd-logind: New session 21 of user vagrant.
+Mar 14 13:34:11 localhost systemd: Starting Session 21 of user vagrant.
+Mar 14 13:34:49 localhost su: (to root) vagrant on pts/0
+Mar 14 13:35:56 localhost systemd: Started Session 22 of user vagrant.
+Mar 14 13:35:56 localhost systemd-logind: New session 22 of user vagrant.
+Mar 14 13:35:56 localhost systemd: Starting Session 22 of user vagrant.
+Mar 14 13:36:00 localhost systemd-logind: Removed session 22.
+Mar 14 13:41:37 localhost systemd: Started Session 23 of user vagrant.
+Mar 14 13:41:37 localhost systemd-logind: New session 23 of user vagrant.
+Mar 14 13:41:37 localhost systemd: Starting Session 23 of user vagrant.
+Mar 14 13:44:11 localhost yum[15025]: Updated: libgcc-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:44:11 localhost yum[15025]: Updated: systemd-libs-219-42.el7_4.10.x86_64
+Mar 14 13:44:11 localhost yum[15025]: Updated: 12:dhcp-libs-4.2.5-58.el7.centos.3.x86_64
+Mar 14 13:44:12 localhost yum[15025]: Updated: binutils-2.25.1-32.base.el7_4.2.x86_64
+Mar 14 13:44:12 localhost yum[15025]: Updated: 12:dhcp-common-4.2.5-58.el7.centos.3.x86_64
+Mar 14 13:44:12 localhost yum[15025]: Updated: kmod-libs-20-15.el7_4.7.x86_64
+Mar 14 13:44:12 localhost yum[15025]: Updated: libgomp-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:44:20 localhost yum[15025]: Updated: selinux-policy-3.13.1-166.el7_4.9.noarch
+Mar 14 13:44:20 localhost yum[15025]: Updated: kernel-tools-libs-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:44:21 localhost yum[15025]: Updated: cpp-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:44:21 localhost yum[15025]: Updated: python-perf-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:44:21 localhost yum[15025]: Updated: kpartx-0.4.9-111.el7_4.2.x86_64
+Mar 14 13:44:21 localhost systemd: Closed udev Control Socket.
+Mar 14 13:44:21 localhost systemd: Stopping udev Control Socket.
+Mar 14 13:44:21 localhost systemd: Closed udev Kernel Socket.
+Mar 14 13:44:21 localhost systemd: Stopping udev Kernel Socket.
+Mar 14 13:44:21 localhost systemd: Stopping udev Kernel Device Manager...
+Mar 14 13:44:21 localhost systemd: Stopped udev Kernel Device Manager.
+Mar 14 13:44:21 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:21 localhost dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:22 localhost dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:22 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:22 localhost systemd: Reexecuting.
+Mar 14 13:44:22 localhost systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar 14 13:44:22 localhost systemd: Detected virtualization kvm.
+Mar 14 13:44:22 localhost systemd: Detected architecture x86-64.
+Mar 14 13:44:22 localhost systemd: Listening on udev Control Socket.
+Mar 14 13:44:22 localhost systemd: Starting udev Control Socket.
+Mar 14 13:44:22 localhost systemd: Listening on udev Kernel Socket.
+Mar 14 13:44:22 localhost systemd: Starting udev Kernel Socket.
+Mar 14 13:44:22 localhost systemd: Starting udev Kernel Device Manager...
+Mar 14 13:44:22 localhost systemd-udevd: starting version 219
+Mar 14 13:44:22 localhost systemd: Started udev Kernel Device Manager.
+Mar 14 13:44:23 localhost yum[15025]: Updated: systemd-219-42.el7_4.10.x86_64
+Mar 14 13:44:23 localhost yum[15025]: Updated: dracut-033-502.el7_4.1.x86_64
+Mar 14 13:44:23 localhost yum[15025]: Updated: kmod-20-15.el7_4.7.x86_64
+Mar 14 13:44:23 localhost systemd: Reloading.
+Mar 14 13:44:23 localhost systemd: Reloading.
+Mar 14 13:44:23 localhost yum[15025]: Updated: initscripts-9.49.39-1.el7_4.1.x86_64
+Mar 14 13:44:23 localhost yum[15025]: Updated: 32:bind-license-9.9.4-51.el7_4.2.noarch
+Mar 14 13:44:23 localhost yum[15025]: Updated: 32:bind-libs-lite-9.9.4-51.el7_4.2.x86_64
+Mar 14 13:44:23 localhost yum[15025]: Updated: 12:dhclient-4.2.5-58.el7.centos.3.x86_64
+Mar 14 13:44:24 localhost yum[15025]: Updated: libdb-5.3.21-21.el7_4.x86_64
+Mar 14 13:44:24 localhost NetworkManager[2932]: <info>  [1521060264.1228] manager: kernel firmware directory '/lib/firmware' changed
+Mar 14 13:44:28 localhost NetworkManager[2932]: <info>  [1521060268.3151] manager: kernel firmware directory '/lib/firmware' changed
+Mar 14 13:44:29 localhost DISCLAIMER:
+Mar 14 13:44:29 localhost DISCLAIMER: This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)
+Mar 14 13:44:29 localhost DISCLAIMER: CPU branch injection vulnerability mitigation. (Historically, Red Hat has provided updated
+Mar 14 13:44:29 localhost DISCLAIMER: microcode, developed by our microprocessor partners, as a customer convenience.) Further
+Mar 14 13:44:29 localhost DISCLAIMER: testing has uncovered problems with the microcode provided along with the “Spectre” mitigation
+Mar 14 13:44:29 localhost DISCLAIMER: that could lead to system instabilities. As a result, Red Hat is providing an microcode update
+Mar 14 13:44:29 localhost DISCLAIMER: that reverts to the last known good microcode version dated before 03 January 2018.
+Mar 14 13:44:29 localhost DISCLAIMER: Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.
+Mar 14 13:44:29 localhost DISCLAIMER:
+Mar 14 13:44:29 localhost DISCLAIMER: IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and
+Mar 14 13:44:29 localhost DISCLAIMER: install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires
+Mar 14 13:44:29 localhost DISCLAIMER: both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+Mar 14 13:44:29 localhost DISCLAIMER:
+Mar 14 13:44:29 localhost yum[15025]: Updated: linux-firmware-20170606-58.gitc990aae.el7_4.noarch
+Mar 14 13:44:29 localhost journal: #012 This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)#012 CPU branch injection vulnerability mitigation. (Historically, Red Hat has provided updated#012 microcode, developed by our microprocessor partners, as a customer convenience.) Further#012 testing has uncovered problems with the microcode provided along with the “Spectre” mitigation#012 that could lead to system instabilities. As a result, Red Hat is providing an microcode update#012 that reverts to the last known good microcode version dated before 03 January 2018.#012 Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.#012#012 IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and#012 install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires#012 both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+Mar 14 13:44:29 localhost yum[15025]: Updated: libteam-1.25-6.el7_4.3.x86_64
+Mar 14 13:44:29 localhost dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:29 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:29 localhost yum[15025]: Updated: teamd-1.25-6.el7_4.3.x86_64
+Mar 14 13:44:33 localhost yum[15025]: Installed: kernel-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:44:33 localhost yum[15025]: Updated: libdb-utils-5.3.21-21.el7_4.x86_64
+Mar 14 13:44:33 localhost yum[15025]: Updated: dracut-network-033-502.el7_4.1.x86_64
+Mar 14 13:44:33 localhost yum[15025]: Updated: dracut-config-rescue-033-502.el7_4.1.x86_64
+Mar 14 13:44:33 localhost dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:33 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:34 localhost yum[15025]: Updated: tuned-2.8.0-5.el7_4.2.noarch
+Mar 14 13:44:34 localhost NetworkManager[2932]: <info>  [1521060274.0741] manager: kernel firmware directory '/lib/firmware' changed
+Mar 14 13:44:34 localhost DISCLAIMER: This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)
+Mar 14 13:44:34 localhost DISCLAIMER: CPU branch injection vulnerability mitigation.  (HIstorically, Red Hat has provided updated
+Mar 14 13:44:34 localhost DISCLAIMER: microcode, developed by our microprocessor partners, as a customer convenience.)  Further
+Mar 14 13:44:34 localhost DISCLAIMER: testing has uncovered problems with the microcode provided along with the “Spectre” mitigation
+Mar 14 13:44:34 localhost DISCLAIMER: that could lead to system instabilities.  As a result, Red Hat is providing an microcode update
+Mar 14 13:44:34 localhost DISCLAIMER: that reverts to the last known good microcode version dated before 03 January 2018.
+Mar 14 13:44:34 localhost DISCLAIMER: Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.
+Mar 14 13:44:34 localhost DISCLAIMER:
+Mar 14 13:44:34 localhost DISCLAIMER: IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and
+Mar 14 13:44:34 localhost DISCLAIMER: install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires
+Mar 14 13:44:34 localhost DISCLAIMER: both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+Mar 14 13:44:34 localhost yum[15025]: Updated: 2:microcode_ctl-2.1-22.5.el7_4.x86_64
+Mar 14 13:44:34 localhost journal: This update supersedes microcode provided  by Red Hat with the CVE-2017-5715 (“Spectre”)#012CPU branch injection vulnerability mitigation.  (HIstorically, Red Hat has provided updated#012microcode, developed by our microprocessor partners, as a customer convenience.)  Further#012testing has uncovered problems with the microcode provided along with the “Spectre” mitigation#012that could lead to system instabilities.  As a result, Red Hat is providing an microcode update#012that reverts to the last known good microcode version dated before 03 January 2018.#012Red Hat strongly recommends that customers contact their hardware provider for the latest microcode updates.#012#012IMPORTANT: Customers using Intel Skylake-, Broadwell-, and Haswell-based platforms must obtain and#012install updated microcode from their hardware vendor immediately. The "Spectre" mitigation requires#012both an updated kernel from Red Hat and updated microcode from your hardware vendor.
+Mar 14 13:44:34 localhost yum[15025]: Updated: systemd-sysv-219-42.el7_4.10.x86_64
+Mar 14 13:44:35 localhost yum[15025]: Updated: gcc-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:44:36 localhost yum[15025]: Updated: kernel-tools-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:44:46 localhost dbus[622]: avc:  received policyload notice (seqno=4)
+Mar 14 13:44:46 localhost dbus-daemon: dbus[622]: avc:  received policyload notice (seqno=4)
+Mar 14 13:44:46 localhost dbus-daemon: dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:46 localhost dbus[622]: [system] Reloaded configuration
+Mar 14 13:44:46 localhost yum[15025]: Updated: selinux-policy-targeted-3.13.1-166.el7_4.9.noarch
+Mar 14 13:44:46 localhost yum[15025]: Updated: libgudev1-219-42.el7_4.10.x86_64
+Mar 14 13:44:46 localhost yum[15025]: Updated: libstdc++-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:44:47 localhost yum[15025]: Updated: yum-3.4.3-154.el7.centos.1.noarch
+Mar 14 13:44:47 localhost yum[15025]: Updated: kernel-headers-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:44:47 localhost NetworkManager[2932]: <info>  [1521060287.8167] manager: kernel firmware directory '/lib/firmware' changed
+Mar 14 13:44:47 localhost yum[15025]: Updated: iwl5000-firmware-8.83.5.1_1-58.el7_4.noarch
+Mar 14 13:44:47 localhost yum[15025]: Updated: iwl135-firmware-18.168.6.1-58.el7_4.noarch
+Mar 14 13:44:47 localhost yum[15025]: Updated: iwl6000g2a-firmware-17.168.5.3-58.el7_4.noarch
+Mar 14 13:44:48 localhost yum[15025]: Updated: iwl2030-firmware-18.168.6.1-58.el7_4.noarch
+Mar 14 13:44:48 localhost yum[15025]: Updated: iwl2000-firmware-18.168.6.1-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl7265-firmware-22.0.7.0-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl3945-firmware-15.32.2.9-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl105-firmware-18.168.6.1-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl7260-firmware-22.0.7.0-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl6050-firmware-41.28.5.1-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl100-firmware-39.31.5.1-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iwl3160-firmware-22.0.7.0-58.el7_4.noarch
+Mar 14 13:44:49 localhost yum[15025]: Updated: iptables-1.4.21-18.3.el7_4.x86_64
+Mar 14 13:44:50 localhost yum[15025]: Updated: tzdata-2018c-1.el7.noarch
+Mar 14 13:44:50 localhost yum[15025]: Updated: 1:iwl1000-firmware-39.31.5.1-58.el7_4.noarch
+Mar 14 13:44:50 localhost yum[15025]: Updated: iwl6000-firmware-9.221.4.1-58.el7_4.noarch
+Mar 14 13:44:50 localhost yum[15025]: Updated: iwl4965-firmware-228.61.2.24-58.el7_4.noarch
+Mar 14 13:44:51 localhost yum[15025]: Updated: iwl6000g2b-firmware-17.168.5.2-58.el7_4.noarch
+Mar 14 13:45:09 localhost yum[15025]: Installed: kernel-devel-3.10.0-693.21.1.el7.x86_64
+Mar 14 13:45:09 localhost NetworkManager[2932]: <info>  [1521060309.3145] manager: kernel firmware directory '/lib/firmware' changed
+Mar 14 13:45:09 localhost yum[15025]: Updated: iwl5150-firmware-8.24.2.2-58.el7_4.noarch
+Mar 14 13:45:09 localhost yum[15025]: Updated: libgcc-4.8.5-16.el7_4.2.i686
+Mar 14 13:45:09 localhost yum[15025]: Updated: systemd-libs-219-42.el7_4.10.i686
+Mar 14 13:45:09 localhost yum[15025]: Updated: libstdc++-4.8.5-16.el7_4.2.i686
+Mar 14 13:45:09 localhost yum[15025]: Updated: libdb-5.3.21-21.el7_4.i686
+Mar 14 13:45:09 localhost systemd: Reloading.
+Mar 14 13:45:09 localhost systemd: Stopping Dynamic System Tuning Daemon...
+Mar 14 13:45:10 localhost systemd: Starting Dynamic System Tuning Daemon...
+Mar 14 13:45:10 localhost systemd: Started Dynamic System Tuning Daemon.
+Mar 14 13:45:11 localhost systemd: Reloading.
+Mar 14 13:45:11 localhost systemd: Reloading.
+Mar 14 13:45:11 localhost systemd: Reloading.
+Mar 14 13:45:19 localhost dracut: dracut-
+Mar 14 13:45:19 localhost dracut: Executing: /sbin/dracut -f /boot/initramfs-3.10.0-693.21.1.el7.x86_64.img 3.10.0-693.21.1.el7.x86_64
+Mar 14 13:45:19 localhost dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Mar 14 13:45:19 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Mar 14 13:45:20 localhost dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Mar 14 13:45:20 localhost dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Mar 14 13:45:20 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Mar 14 13:45:20 localhost dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Mar 14 13:45:20 localhost dracut: *** Including module: bash ***
+Mar 14 13:45:20 localhost dracut: *** Including module: nss-softokn ***
+Mar 14 13:45:20 localhost dracut: *** Including module: i18n ***
+Mar 14 13:45:20 localhost dracut: *** Including module: network ***
+Mar 14 13:45:21 localhost dracut: *** Including module: ifcfg ***
+Mar 14 13:45:21 localhost dracut: *** Including module: drm ***
+Mar 14 13:45:22 localhost dracut: *** Including module: plymouth ***
+Mar 14 13:45:22 localhost dracut: *** Including module: dm ***
+Mar 14 13:45:22 localhost dracut: Skipping udev rule: 64-device-mapper.rules
+Mar 14 13:45:22 localhost dracut: Skipping udev rule: 60-persistent-storage-dm.rules
+Mar 14 13:45:22 localhost dracut: Skipping udev rule: 55-dm.rules
+Mar 14 13:45:22 localhost dracut: *** Including module: kernel-modules ***
+Mar 14 13:45:29 localhost dracut: *** Including module: lvm ***
+Mar 14 13:45:29 localhost dracut: Skipping udev rule: 64-device-mapper.rules
+Mar 14 13:45:29 localhost dracut: Skipping udev rule: 56-lvm.rules
+Mar 14 13:45:29 localhost dracut: Skipping udev rule: 60-persistent-storage-lvm.rules
+Mar 14 13:45:29 localhost dracut: *** Including module: qemu ***
+Mar 14 13:45:29 localhost dracut: *** Including module: resume ***
+Mar 14 13:45:29 localhost dracut: *** Including module: rootfs-block ***
+Mar 14 13:45:29 localhost dracut: *** Including module: terminfo ***
+Mar 14 13:45:29 localhost dracut: *** Including module: udev-rules ***
+Mar 14 13:45:29 localhost dracut: Skipping udev rule: 40-redhat-cpu-hotplug.rules
+Mar 14 13:45:29 localhost dracut: Skipping udev rule: 91-permissions.rules
+Mar 14 13:45:29 localhost dracut: *** Including module: biosdevname ***
+Mar 14 13:45:29 localhost dracut: *** Including module: systemd ***
+Mar 14 13:45:29 localhost dracut: *** Including module: usrmount ***
+Mar 14 13:45:29 localhost dracut: *** Including module: base ***
+Mar 14 13:45:29 localhost dracut: *** Including module: fs-lib ***
+Mar 14 13:45:29 localhost dracut: *** Including module: shutdown ***
+Mar 14 13:45:29 localhost dracut: *** Including modules done ***
+Mar 14 13:45:29 localhost dracut: *** Installing kernel module dependencies and firmware ***
+Mar 14 13:45:30 localhost dracut: *** Installing kernel module dependencies and firmware done ***
+Mar 14 13:45:30 localhost dracut: *** Resolving executable dependencies ***
+Mar 14 13:45:31 localhost dracut: *** Resolving executable dependencies done***
+Mar 14 13:45:31 localhost dracut: *** Hardlinking files ***
+Mar 14 13:45:31 localhost dracut: *** Hardlinking files done ***
+Mar 14 13:45:31 localhost dracut: *** Stripping files ***
+Mar 14 13:45:31 localhost dracut: *** Stripping files done ***
+Mar 14 13:45:31 localhost dracut: *** Generating early-microcode cpio image contents ***
+Mar 14 13:45:31 localhost dracut: *** Constructing GenuineIntel.bin ****
+Mar 14 13:45:31 localhost dracut: *** Store current command line parameters ***
+Mar 14 13:45:31 localhost dracut: *** Creating image file ***
+Mar 14 13:45:31 localhost dracut: *** Creating microcode section ***
+Mar 14 13:45:31 localhost dracut: *** Created microcode section ***
+Mar 14 13:45:42 localhost dracut: *** Creating image file done ***
+Mar 14 13:45:47 localhost dracut: *** Creating initramfs image file '/boot/initramfs-3.10.0-693.21.1.el7.x86_64.img' done ***
+Mar 14 13:45:47 localhost vboxadd.sh: Building the VirtualBox Guest Additions kernel modules.
+Mar 14 13:45:47 localhost vboxadd.sh: Building the main Guest Additions module.
+Mar 14 13:46:16 localhost vboxadd.sh: .
+Mar 14 13:46:16 localhost vboxadd.sh: Building the shared folder support module.
+Mar 14 13:46:22 localhost vboxadd.sh: .
+Mar 14 13:46:22 localhost vboxadd.sh: Building the graphics driver module.
+Mar 14 13:46:29 localhost vboxadd.sh: .
+Mar 14 13:46:32 localhost vboxadd.sh: Doing non-kernel setup of the Guest Additions.
+Mar 14 13:46:32 localhost dracut: dracut-
+Mar 14 13:46:32 localhost dracut: Executing: /sbin/dracut -f
+Mar 14 13:46:32 localhost dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Mar 14 13:46:32 localhost dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Mar 14 13:46:33 localhost dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Mar 14 13:46:33 localhost dracut: dracut module 'modsign' will not be installed, because command 'keyctl' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'busybox' will not be installed, because command 'busybox' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'crypt' will not be installed, because command 'cryptsetup' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'dmraid' will not be installed, because command 'dmraid' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'mdraid' will not be installed, because command 'mdadm' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'multipath' will not be installed, because command 'multipath' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'cifs' will not be installed, because command 'mount.cifs' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsistart' could not be found!
+Mar 14 13:46:33 localhost dracut: dracut module 'iscsi' will not be installed, because command 'iscsi-iname' could not be found!
+Mar 14 13:46:33 localhost dracut: 95nfs: Could not find any command of 'rpcbind portmap'!
+Mar 14 13:46:33 localhost dracut: *** Including module: bash ***
+Mar 14 13:46:33 localhost dracut: *** Including module: nss-softokn ***
+Mar 14 13:46:33 localhost dracut: *** Including module: i18n ***
+Mar 14 13:46:33 localhost dracut: *** Including module: network ***
+Mar 14 13:46:34 localhost dracut: *** Including module: ifcfg ***
+Mar 14 13:46:34 localhost dracut: *** Including module: drm ***
+Mar 14 13:46:35 localhost dracut: *** Including module: plymouth ***
+Mar 14 13:46:35 localhost dracut: *** Including module: dm ***
+Mar 14 13:46:35 localhost dracut: Skipping udev rule: 64-device-mapper.rules
+Mar 14 13:46:35 localhost dracut: Skipping udev rule: 60-persistent-storage-dm.rules
+Mar 14 13:46:35 localhost dracut: Skipping udev rule: 55-dm.rules
+Mar 14 13:46:35 localhost dracut: *** Including module: kernel-modules ***
+Mar 14 13:46:42 localhost dracut: *** Including module: lvm ***
+Mar 14 13:46:42 localhost dracut: Skipping udev rule: 64-device-mapper.rules
+Mar 14 13:46:42 localhost dracut: Skipping udev rule: 56-lvm.rules
+Mar 14 13:46:42 localhost dracut: Skipping udev rule: 60-persistent-storage-lvm.rules
+Mar 14 13:46:42 localhost dracut: *** Including module: qemu ***
+Mar 14 13:46:42 localhost dracut: *** Including module: resume ***
+Mar 14 13:46:42 localhost dracut: *** Including module: rootfs-block ***
+Mar 14 13:46:42 localhost dracut: *** Including module: terminfo ***
+Mar 14 13:46:42 localhost dracut: *** Including module: udev-rules ***
+Mar 14 13:46:42 localhost dracut: Skipping udev rule: 40-redhat-cpu-hotplug.rules
+Mar 14 13:46:42 localhost dracut: Skipping udev rule: 91-permissions.rules
+Mar 14 13:46:42 localhost dracut: *** Including module: biosdevname ***
+Mar 14 13:46:42 localhost dracut: *** Including module: systemd ***
+Mar 14 13:46:42 localhost dracut: *** Including module: usrmount ***
+Mar 14 13:46:42 localhost dracut: *** Including module: base ***
+Mar 14 13:46:43 localhost dracut: *** Including module: fs-lib ***
+Mar 14 13:46:43 localhost dracut: *** Including module: shutdown ***
+Mar 14 13:46:43 localhost dracut: *** Including modules done ***
+Mar 14 13:46:43 localhost dracut: *** Installing kernel module dependencies and firmware ***
+Mar 14 13:46:43 localhost dracut: *** Installing kernel module dependencies and firmware done ***
+Mar 14 13:46:43 localhost dracut: *** Resolving executable dependencies ***
+Mar 14 13:46:44 localhost dracut: *** Resolving executable dependencies done***
+Mar 14 13:46:44 localhost dracut: *** Hardlinking files ***
+Mar 14 13:46:44 localhost dracut: *** Hardlinking files done ***
+Mar 14 13:46:44 localhost dracut: *** Stripping files ***
+Mar 14 13:46:44 localhost dracut: *** Stripping files done ***
+Mar 14 13:46:44 localhost dracut: *** Generating early-microcode cpio image contents ***
+Mar 14 13:46:44 localhost dracut: *** Constructing GenuineIntel.bin ****
+Mar 14 13:46:44 localhost dracut: *** Store current command line parameters ***
+Mar 14 13:46:44 localhost dracut: *** Creating image file ***
+Mar 14 13:46:44 localhost dracut: *** Creating microcode section ***
+Mar 14 13:46:44 localhost dracut: *** Created microcode section ***
+Mar 14 13:46:53 localhost dracut: *** Creating image file done ***
+Mar 14 13:46:53 localhost journal: Suppressed 424 messages from /user.slice/user-1000.slice
+Mar 14 13:46:59 localhost dracut: *** Creating initramfs image file '/boot/initramfs-3.10.0-693.11.1.el7.x86_64.img' done ***
+Mar 14 13:55:47 localhost systemd-logind: Removed session 23.
+Mar 14 13:55:52 localhost systemd: Started Session 24 of user vagrant.
+Mar 14 13:55:52 localhost systemd-logind: New session 24 of user vagrant.
+Mar 14 13:55:52 localhost systemd: Starting Session 24 of user vagrant.
+Mar 14 13:57:42 localhost yum[19562]: Installed: apr-1.4.8-3.el7_4.1.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: m4-1.4.16-10.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: libquadmath-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: apr-util-1.5.2-6.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: zip-3.0-11.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: unzip-6.0-16.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: patch-2.7.1-8.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: avahi-libs-0.6.31-17.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: boost-system-1.53.0-27.el7.x86_64
+Mar 14 13:57:42 localhost yum[19562]: Installed: perl-Thread-Queue-3.02-2.el7.noarch
+Mar 14 13:57:42 localhost yum[19562]: Installed: boost-thread-1.53.0-27.el7.x86_64
+Mar 14 13:57:43 localhost yum[19562]: Installed: systemtap-devel-3.1-5.el7_4.x86_64
+Mar 14 13:57:43 localhost yum[19562]: Installed: libquadmath-devel-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:43 localhost yum[19562]: Installed: libgfortran-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:43 localhost yum[19562]: Installed: perl-srpm-macros-1-8.el7.noarch
+Mar 14 13:57:43 localhost yum[19562]: Installed: pakchois-0.4-10.el7.x86_64
+Mar 14 13:57:43 localhost yum[19562]: Installed: neon-0.30.0-3.el7.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: subversion-libs-1.7.14-11.el7_4.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: dwz-0.11-3.el7.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: redhat-rpm-config-9.1.0-76.el7.centos.noarch
+Mar 14 13:57:44 localhost yum[19562]: Installed: 1:emacs-filesystem-24.3-20.el7_4.noarch
+Mar 14 13:57:44 localhost yum[19562]: Installed: libstdc++-devel-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: perl-Data-Dumper-2.145-3.el7.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: autoconf-2.69-11.el7.noarch
+Mar 14 13:57:44 localhost yum[19562]: Installed: boost-date-time-1.53.0-27.el7.x86_64
+Mar 14 13:57:44 localhost yum[19562]: Installed: gettext-common-devel-0.19.8.1-2.el7.noarch
+Mar 14 13:57:45 localhost yum[19562]: Installed: gettext-devel-0.19.8.1-2.el7.x86_64
+Mar 14 13:57:45 localhost yum[19562]: Installed: gdb-7.6.1-100.el7_4.1.x86_64
+Mar 14 13:57:45 localhost yum[19562]: Installed: perl-Test-Harness-3.28-3.el7.noarch
+Mar 14 13:57:45 localhost yum[19562]: Installed: automake-1.13.4-3.el7.noarch
+Mar 14 13:57:45 localhost yum[19562]: Installed: elfutils-0.168-8.el7.x86_64
+Mar 14 13:57:45 localhost yum[19562]: Installed: efivar-libs-31-4.el7.x86_64
+Mar 14 13:57:46 localhost yum[19562]: Installed: mokutil-12-1.el7.centos.x86_64
+Mar 14 13:57:46 localhost yum[19562]: Installed: libdwarf-20130207-4.el7.x86_64
+Mar 14 13:57:46 localhost yum[19562]: Installed: dyninst-9.3.1-1.el7.x86_64
+Mar 14 13:57:46 localhost yum[19562]: Installed: systemtap-runtime-3.1-5.el7_4.x86_64
+Mar 14 13:57:48 localhost yum[19562]: Installed: systemtap-client-3.1-5.el7_4.x86_64
+Mar 14 13:57:48 localhost yum[19562]: Installed: perl-XML-Parser-2.41-10.el7.x86_64
+Mar 14 13:57:48 localhost yum[19562]: Installed: intltool-0.50.2-7.el7.noarch
+Mar 14 13:57:48 localhost yum[19562]: Installed: systemtap-3.1-5.el7_4.x86_64
+Mar 14 13:57:48 localhost yum[19562]: Installed: rpm-build-4.11.3-25.el7.x86_64
+Mar 14 13:57:48 localhost yum[19562]: Installed: libtool-2.4.2-22.el7_3.x86_64
+Mar 14 13:57:49 localhost yum[19562]: Installed: gcc-c++-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:49 localhost yum[19562]: Installed: cscope-15.8-10.el7.x86_64
+Mar 14 13:57:49 localhost systemd: Reloading.
+Mar 14 13:57:49 localhost yum[19562]: Installed: subversion-1.7.14-11.el7_4.x86_64
+Mar 14 13:57:50 localhost yum[19562]: Installed: gcc-gfortran-4.8.5-16.el7_4.2.x86_64
+Mar 14 13:57:50 localhost yum[19562]: Installed: bison-3.0.4-1.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: flex-2.5.37-3.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: diffstat-1.57-4.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: rpm-sign-4.11.3-25.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: indent-2.2.11-13.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: swig-2.0.10-5.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: rcs-5.9.0-5.el7.x86_64
+Mar 14 13:57:51 localhost yum[19562]: Installed: patchutils-0.3.3-4.el7.x86_64
+Mar 14 13:57:53 localhost yum[19562]: Installed: 1:doxygen-1.8.5-3.el7.x86_64
+Mar 14 13:57:53 localhost yum[19562]: Installed: byacc-1.9.20130304-3.el7.x86_64
+Mar 14 13:57:53 localhost yum[19562]: Installed: ctags-5.8-13.el7.x86_64
+Mar 14 13:57:59 localhost yum[19690]: Installed: epel-release-7-9.noarch
+Mar 14 13:57:59 localhost yum[19690]: Installed: ius-release-1.0-15.ius.centos7.noarch
+Mar 14 13:58:25 localhost yum[19721]: Installed: python36u-libs-3.6.4-1.ius.centos7.x86_64
+Mar 14 13:58:25 localhost yum[19721]: Installed: python36u-3.6.4-1.ius.centos7.x86_64
+Mar 14 13:58:41 localhost yum[19826]: Installed: python36u-setuptools-36.6.0-1.ius.centos7.noarch
+Mar 14 13:58:42 localhost yum[19826]: Installed: python36u-pip-9.0.1-1.ius.centos7.noarch
+Mar 14 13:59:29 localhost yum[19927]: Installed: python36u-devel-3.6.4-1.ius.centos7.x86_64
+Mar 14 14:00:48 localhost systemd-logind: Removed session 21.
+Mar 14 14:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 14:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 14:01:01 localhost systemd: Started Session 25 of user root.
+Mar 14 14:01:01 localhost systemd: Starting Session 25 of user root.
+Mar 14 14:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 14:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 15:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 15:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 15:01:01 localhost systemd: Started Session 26 of user root.
+Mar 14 15:01:01 localhost systemd: Starting Session 26 of user root.
+Mar 14 15:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 15:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 16:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 16:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 16:01:01 localhost systemd: Started Session 27 of user root.
+Mar 14 16:01:01 localhost systemd: Starting Session 27 of user root.
+Mar 14 16:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 16:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 17:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 17:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 17:01:01 localhost systemd: Started Session 28 of user root.
+Mar 14 17:01:01 localhost systemd: Starting Session 28 of user root.
+Mar 14 17:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 17:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 18:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 18:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 18:01:01 localhost systemd: Started Session 29 of user root.
+Mar 14 18:01:01 localhost systemd: Starting Session 29 of user root.
+Mar 14 18:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 18:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 18:06:55 localhost kernel: e1000: enp0s3 NIC Link is Down
+Mar 14 18:06:57 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8633] device (enp0s3): link connected
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8647] device (enp0s3): DHCPv4 lease renewal requested
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8746] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 14716
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8746] dhcp4 (enp0s3): state changed bound -> done
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8770] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.8885] dhcp4 (enp0s3): dhclient started with pid 20114
+Mar 14 18:06:57 localhost dhclient[20114]: DHCPDISCOVER on enp0s3 to 255.255.255.255 port 67 interval 8 (xid=0x7ae74d62)
+Mar 14 18:06:57 localhost dhclient[20114]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x7ae74d62)
+Mar 14 18:06:57 localhost dhclient[20114]: DHCPOFFER from 10.0.2.2
+Mar 14 18:06:57 localhost dhclient[20114]: DHCPACK from 10.0.2.2 (xid=0x7ae74d62)
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3):   lease time 86400
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 14 18:06:57 localhost NetworkManager[2932]: <info>  [1521076017.9200] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 14 18:06:57 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 14 18:06:57 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 14 18:06:57 localhost dhclient[20114]: bound to 10.0.2.15 -- renewal in 41281 seconds.
+Mar 14 18:06:57 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 14 18:06:57 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 14 18:06:57 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 14 18:06:57 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 14 18:06:57 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 14 18:06:57 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 14 21:42:24 localhost systemd: Time has been changed
+Mar 14 22:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 22:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 22:01:01 localhost systemd: Started Session 30 of user root.
+Mar 14 22:01:01 localhost systemd: Starting Session 30 of user root.
+Mar 14 22:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 22:01:01 localhost systemd: Stopping User Slice of root.
+Mar 14 23:01:01 localhost systemd: Created slice User Slice of root.
+Mar 14 23:01:01 localhost systemd: Starting User Slice of root.
+Mar 14 23:01:01 localhost systemd: Started Session 31 of user root.
+Mar 14 23:01:01 localhost systemd: Starting Session 31 of user root.
+Mar 14 23:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 14 23:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 00:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 00:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 00:01:01 localhost systemd: Started Session 32 of user root.
+Mar 15 00:01:01 localhost systemd: Starting Session 32 of user root.
+Mar 15 00:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 00:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 00:43:45 localhost systemd: Starting Cleanup of Temporary Directories...
+Mar 15 00:43:45 localhost systemd: Started Cleanup of Temporary Directories.
+Mar 15 01:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 01:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 01:01:01 localhost systemd: Started Session 33 of user root.
+Mar 15 01:01:01 localhost systemd: Starting Session 33 of user root.
+Mar 15 01:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 01:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 02:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 02:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 02:01:01 localhost systemd: Started Session 34 of user root.
+Mar 15 02:01:01 localhost systemd: Starting Session 34 of user root.
+Mar 15 02:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 02:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 09:34:30 localhost systemd: Time has been changed
+Mar 15 10:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 10:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 10:01:01 localhost systemd: Started Session 35 of user root.
+Mar 15 10:01:01 localhost systemd: Starting Session 35 of user root.
+Mar 15 10:25:04 localhost systemd: Removed slice User Slice of root.
+Mar 15 10:25:04 localhost systemd: Stopping User Slice of root.
+Mar 15 11:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 11:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 11:01:01 localhost systemd: Started Session 36 of user root.
+Mar 15 11:01:01 localhost systemd: Starting Session 36 of user root.
+Mar 15 11:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 11:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 12:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 12:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 12:01:02 localhost systemd: Started Session 37 of user root.
+Mar 15 12:01:02 localhost systemd: Starting Session 37 of user root.
+Mar 15 12:01:02 localhost systemd: Removed slice User Slice of root.
+Mar 15 12:01:02 localhost systemd: Stopping User Slice of root.
+Mar 15 12:57:45 localhost systemd: Started Session 38 of user vagrant.
+Mar 15 12:57:45 localhost systemd-logind: New session 38 of user vagrant.
+Mar 15 12:57:45 localhost systemd: Starting Session 38 of user vagrant.
+Mar 15 13:00:21 localhost dhclient[20114]: DHCPREQUEST on enp0s3 to 10.0.2.2 port 67 (xid=0x7ae74d62)
+Mar 15 13:00:21 localhost dhclient[20114]: DHCPACK from 10.0.2.2 (xid=0x7ae74d62)
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8130] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3):   lease time 86400
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3):   domain name 'emv.marqeta.com'
+Mar 15 13:00:21 localhost NetworkManager[2932]: <info>  [1521144021.8134] dhcp4 (enp0s3): state changed bound -> bound
+Mar 15 13:00:21 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 15 13:00:21 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 15 13:00:21 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 15 13:00:21 localhost dhclient[20114]: bound to 10.0.2.15 -- renewal in 39472 seconds.
+Mar 15 13:00:21 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 15 13:00:21 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 15 13:00:21 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 15 13:00:21 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 15 13:00:21 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 15 13:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 13:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 13:01:01 localhost systemd: Started Session 39 of user root.
+Mar 15 13:01:01 localhost systemd: Starting Session 39 of user root.
+Mar 15 13:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 13:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 15:05:39 localhost systemd: Time has been changed
+Mar 15 16:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 16:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 16:01:01 localhost systemd: Started Session 40 of user root.
+Mar 15 16:01:01 localhost systemd: Starting Session 40 of user root.
+Mar 15 16:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 16:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 17:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 17:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 17:01:01 localhost systemd: Started Session 41 of user root.
+Mar 15 17:01:01 localhost systemd: Starting Session 41 of user root.
+Mar 15 17:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 17:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 17:23:56 localhost kernel: e1000: enp0s3 NIC Link is Down
+Mar 15 17:23:58 localhost kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3254] device (enp0s3): link connected
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3259] device (enp0s3): DHCPv4 lease renewal requested
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3313] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 20114
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3313] dhcp4 (enp0s3): state changed bound -> done
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3318] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3417] dhcp4 (enp0s3): dhclient started with pid 25436
+Mar 15 17:23:58 localhost dhclient[25436]: DHCPREQUEST on enp0s3 to 255.255.255.255 port 67 (xid=0x399fb735)
+Mar 15 17:23:58 localhost dhclient[25436]: DHCPACK from 10.0.2.2 (xid=0x399fb735)
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3):   address 10.0.2.15
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3):   gateway 10.0.2.2
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3):   lease time 86400
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3):   nameserver '10.0.2.3'
+Mar 15 17:23:58 localhost NetworkManager[2932]: <info>  [1521159838.3604] dhcp4 (enp0s3): state changed unknown -> bound
+Mar 15 17:23:58 localhost dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 15 17:23:58 localhost dbus-daemon: dbus[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 15 17:23:58 localhost systemd: Starting Network Manager Script Dispatcher Service...
+Mar 15 17:23:58 localhost dhclient[25436]: bound to 10.0.2.15 -- renewal in 37793 seconds.
+Mar 15 17:23:58 localhost dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 15 17:23:58 localhost dbus-daemon: dbus[622]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 15 17:23:58 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (2 scripts)
+Mar 15 17:23:58 localhost systemd: Started Network Manager Script Dispatcher Service.
+Mar 15 17:23:58 localhost nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
+Mar 15 21:36:45 localhost systemd: Time has been changed
+Mar 15 22:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 22:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 22:01:01 localhost systemd: Started Session 42 of user root.
+Mar 15 22:01:01 localhost systemd: Starting Session 42 of user root.
+Mar 15 22:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 22:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 22:28:49 localhost systemd-logind: Removed session 38.
+Mar 15 22:28:56 localhost systemd: Started Session 43 of user vagrant.
+Mar 15 22:28:56 localhost systemd-logind: New session 43 of user vagrant.
+Mar 15 22:28:56 localhost systemd: Starting Session 43 of user vagrant.
+Mar 15 23:01:01 localhost systemd: Created slice User Slice of root.
+Mar 15 23:01:01 localhost systemd: Starting User Slice of root.
+Mar 15 23:01:01 localhost systemd: Started Session 44 of user root.
+Mar 15 23:01:01 localhost systemd: Starting Session 44 of user root.
+Mar 15 23:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 15 23:01:01 localhost systemd: Stopping User Slice of root.
+Mar 15 23:43:50 localhost systemd-logind: Removed session 43.
+Mar 15 23:45:06 localhost systemd-logind: Removed session 24.
+Mar 15 23:45:06 localhost systemd: Removed slice User Slice of vagrant.
+Mar 15 23:45:06 localhost systemd: Stopping User Slice of vagrant.
+Mar 16 09:35:42 localhost systemd: Time has been changed
+Mar 16 10:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 10:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 10:01:01 localhost systemd: Started Session 45 of user root.
+Mar 16 10:01:01 localhost systemd: Starting Session 45 of user root.
+Mar 16 10:32:02 localhost systemd: Removed slice User Slice of root.
+Mar 16 10:32:02 localhost systemd: Stopping User Slice of root.
+Mar 16 11:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 11:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 11:01:01 localhost systemd: Started Session 46 of user root.
+Mar 16 11:01:01 localhost systemd: Starting Session 46 of user root.
+Mar 16 11:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 16 11:01:01 localhost systemd: Stopping User Slice of root.
+Mar 16 12:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 12:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 12:01:01 localhost systemd: Started Session 47 of user root.
+Mar 16 12:01:01 localhost systemd: Starting Session 47 of user root.
+Mar 16 12:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 16 12:01:01 localhost systemd: Stopping User Slice of root.
+Mar 16 12:22:25 localhost systemd: Created slice User Slice of vagrant.
+Mar 16 12:22:25 localhost systemd: Starting User Slice of vagrant.
+Mar 16 12:22:25 localhost systemd: Started Session 48 of user vagrant.
+Mar 16 12:22:25 localhost systemd-logind: New session 48 of user vagrant.
+Mar 16 12:22:25 localhost systemd: Starting Session 48 of user vagrant.
+Mar 16 12:35:51 localhost systemd-logind: Removed session 48.
+Mar 16 12:35:51 localhost systemd: Removed slice User Slice of vagrant.
+Mar 16 12:35:51 localhost systemd: Stopping User Slice of vagrant.
+Mar 16 13:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 13:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 13:01:01 localhost systemd: Started Session 49 of user root.
+Mar 16 13:01:01 localhost systemd: Starting Session 49 of user root.
+Mar 16 13:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 16 13:01:01 localhost systemd: Stopping User Slice of root.
+Mar 16 14:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 14:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 14:01:01 localhost systemd: Started Session 50 of user root.
+Mar 16 14:01:01 localhost systemd: Starting Session 50 of user root.
+Mar 16 14:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 16 14:01:01 localhost systemd: Stopping User Slice of root.
+Mar 16 14:36:55 localhost systemd: Created slice User Slice of vagrant.
+Mar 16 14:36:55 localhost systemd: Starting User Slice of vagrant.
+Mar 16 14:36:55 localhost systemd: Started Session 51 of user vagrant.
+Mar 16 14:36:55 localhost systemd-logind: New session 51 of user vagrant.
+Mar 16 14:36:55 localhost systemd: Starting Session 51 of user vagrant.
+Mar 16 14:36:55 localhost systemd-logind: Removed session 51.
+Mar 16 14:36:55 localhost systemd: Removed slice User Slice of vagrant.
+Mar 16 14:36:55 localhost systemd: Stopping User Slice of vagrant.
+Mar 16 14:37:00 localhost systemd: Created slice User Slice of vagrant.
+Mar 16 14:37:00 localhost systemd: Starting User Slice of vagrant.
+Mar 16 14:37:00 localhost systemd: Started Session 52 of user vagrant.
+Mar 16 14:37:00 localhost systemd-logind: New session 52 of user vagrant.
+Mar 16 14:37:00 localhost systemd: Starting Session 52 of user vagrant.
+Mar 16 14:39:32 localhost systemd-logind: Removed session 52.
+Mar 16 14:39:32 localhost systemd: Removed slice User Slice of vagrant.
+Mar 16 14:39:32 localhost systemd: Stopping User Slice of vagrant.
+Mar 16 14:39:37 localhost systemd: Created slice User Slice of vagrant.
+Mar 16 14:39:37 localhost systemd: Starting User Slice of vagrant.
+Mar 16 14:39:37 localhost systemd: Started Session 53 of user vagrant.
+Mar 16 14:39:37 localhost systemd-logind: New session 53 of user vagrant.
+Mar 16 14:39:37 localhost systemd: Starting Session 53 of user vagrant.
+Mar 16 15:01:01 localhost systemd: Created slice User Slice of root.
+Mar 16 15:01:01 localhost systemd: Starting User Slice of root.
+Mar 16 15:01:01 localhost systemd: Started Session 54 of user root.
+Mar 16 15:01:01 localhost systemd: Starting Session 54 of user root.
+Mar 16 15:01:01 localhost systemd: Removed slice User Slice of root.
+Mar 16 15:01:01 localhost systemd: Stopping User Slice of root.
+Mar 16 15:05:24 localhost systemd-logind: Removed session 53.
+Mar 16 15:05:24 localhost systemd: Removed slice User Slice of vagrant.
+Mar 16 15:05:24 localhost systemd: Stopping User Slice of vagrant.
+Mar 16 15:05:28 localhost systemd: Created slice User Slice of vagrant.
+Mar 16 15:05:28 localhost systemd: Starting User Slice of vagrant.
+Mar 16 15:05:28 localhost systemd: Started Session 55 of user vagrant.
+Mar 16 15:05:28 localhost systemd-logind: New session 55 of user vagrant.
+Mar 16 15:05:28 localhost systemd: Starting Session 55 of user vagrant.
+
