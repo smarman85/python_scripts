@@ -1,0 +1,1 @@
+uwsgi --http :9898 --wsgi-file foobar.py
